@@ -5,10 +5,27 @@
          <ul class="nav navbar-nav navbar-right">
             <li><%= link_to t("static_pages.home.title1"), root_path %></li>
             <li><%= link_to t("static_pages.help.title1"), help_path %></li>
-            <li><%= link_to t(".login"), '#' %></li>
-            <%= link_to "En", locale:"en" %>
-            <%= link_to "Vi", locale:"vi" %>
+            <% if logged_in? %>
+               <li><%= link_to t(".users"), "#" %></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     <%= t(".account") %> <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><%= link_to t(".profile"), current_user%></li>
+                     <li><%= link_to t(".account"), "#" %></li>
+                     <li class="divider"></li>
+                     <li>
+                        <%= link_to t(".logout"), logout_path, method: :delete %>
+                     </li>
+                  </ul>
+               </li>
+            <% else %>
+               <li><%= link_to t(".login"), login_path %>
+            <% end %>
          </ul>
+         <%= link_to "En", locale: "en" %>
+         <%= link_to "Vi", locale: "vi" %>
       </nav>
    </div>
 </header>

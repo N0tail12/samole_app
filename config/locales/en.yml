@@ -41,6 +41,11 @@ en:
     header:
       sample_app: "sample app"
       login: "Login"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
   static_pages:
     contact:
       title1: "Contact"
@@ -69,6 +74,9 @@ en:
       series: "screencast series"
       intro2: "to teach web development with"
       intro3: "This is the sample app for the tutorial."
+  sessions:
+    new:
+      new_user: "New user?"
   users:
     new:
       name: "Name"
@@ -84,3 +92,5 @@ en:
       success: "Welcome to the Sample app!"
       error: "Failed to create new account"
       not_found: "Not found"
+    session_controller:
+      danger: "Invalid email/password combination"

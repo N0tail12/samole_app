@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  # Defines the root path route ("/")
-  # root "articles#index"
   scope "(:locale)", locale: /en|vi/ do
     get "users/new"
     root "static_pages#home"
@@ -8,6 +6,9 @@ Rails.application.routes.draw do
     get "/about", to: "static_pages#about"
     get "/contact", to: "static_pages#contact"
     get "/signup", to: "users#new"
+    get "/login", to: "sessions#new"
+    post "login", to: "sessions#create"
+    delete "/logout", to: "sessions#destroy"
     resources :users
   end
 end
