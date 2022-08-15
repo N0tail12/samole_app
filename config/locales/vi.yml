@@ -29,43 +29,43 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
+vi:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     footer:
-      the: "The"
-      by: "By"
+      the: ""
+      by: "boi"
       author: "Michael Hartl"
-      news: "News"
+      news: "Tin tuc"
     header:
       sample_app: "sample app"
-      login: "Login"
+      login: "Dang Nhap"
   static_pages:
     contact:
-      title1: "Contact"
-      title2: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      link_to_page: "contact page"
+      title1: "Lien He"
+      title2: "Lien he huong dan Ruby on Rails ve sample app o"
+      link_to_page: "Trang lien he"
     help:
-      title1: "Help"
-      title2: "Get help on the Ruby on Rails Tutorial at the"
-      title3: "Rails Tutorial Help page"
-      title4: "To get help on this sample app, see the"
-      title5: "Ruby on Rails Tutorial"
-      title6: "book"
+      title1: "Ho tro"
+      title2: "Nhan ho tro huong dan Ruby on Rails o"
+      title3: "Trang ho tro Ruby on Rails"
+      title4: "De nhan ho tro ve sample app, hay xem"
+      title5: "Huong dan Ruby on Rails"
+      title6: "sach"
     home:
-      title1: "Home"
-      title2: "This is the homepage for the"
-      rails_tutorial: "Ruby On Rails Tutorial"
-      rails_link_title: "sample application."
-      sign_up: "Sign up now!"
+      title1: "Trang chu"
+      title2: "Day la trang chu cho"
+      rails_tutorial: "Huong dan Ruby On Rails"
+      rails_link_title: "ung dung vi du"
+      sign_up: "Dang ki ngay"
     about:
-      about: "About"
-      part: "part of the"
-      learn_enough: "Learn Enough,"
-      intro1: "family of tutorials, is a"
-      book: "book"
-      and: "and"
-      series: "screencast series"
-      intro2: "to teach web development with"
-      intro3: "This is the sample app for the tutorial."
+      about: "Ve Ruby on Rails"
+      part: "Mot phan cua"
+      learn_enough: "Hoc du,"
+      intro1: "gia dinh cua rails, la"
+      book: "sach"
+      and: "va"
+      series: "Series Screencast"
+      intro2: "De huong dan nha phat trien web voi"
+      intro3: "Day la sample app cho huong dan"

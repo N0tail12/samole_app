@@ -1,0 +1,13 @@
+<footer class="footer">
+   <small>
+   <%= t(".the") %> <a href="https://www.railstutorial.org/"><%= t("home.rails_tutorial") %></a>
+   <%= t(".by") %> <a href="https://www.michaelhartl.com/"><%= t(".author") %></a>
+   </small>
+   <nav>
+      <ul>
+      <li><%= link_to t("static_pages.about.about"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.title1"), contact_path %></li>
+      <li><a href="https://news.railstutorial.org/"><%= t(".news") %></a></li>
+      </ul>
+   </nav>
+</footer>
