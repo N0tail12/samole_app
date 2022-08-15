@@ -9,6 +9,8 @@ gem "config"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 gem "rails-i18n"
 
+gem "pry-rails"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 

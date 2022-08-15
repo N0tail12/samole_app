@@ -69,3 +69,17 @@ vi:
       series: "Series Screencast"
       intro2: "De huong dan nha phat trien web voi"
       intro3: "Day la sample app cho huong dan"
+  users:
+    new:
+      name: "Ten"
+      email: "Email"
+      password: "Mat khau"
+      password_confirm: "Xac nhan mat khau"
+      submit: "Tao tai khoan"
+  shared:
+    form_contain: "The form contains"
+  controllers:
+    users_controller:
+      success: "Chao mung ban den voi sample app"
+      error: "That bai khi tao tai khoan moi"
+      not_found: "Khong tim thay"
