@@ -75,6 +75,11 @@ vi:
       series: "Series Screencast"
       intro2: "De huong dan nha phat trien web voi"
       intro3: "Day la sample app cho huong dan"
+  user_mailer:
+    account_activation:
+      title1: "Chao mung den voi Sample App! Bam vao link ben duoi de kich hoat tai khoan: "
+      greeting: "Xin chao "
+      activation: "Kich hoat"
   sessions:
     new:
       new_user: "Nguoi dung moi?"
@@ -86,10 +91,12 @@ vi:
       password: "Mat khau"
       password_confirm: "Xac nhan mat khau"
       submit: "Tao tai khoan"
+      sign_up: "Dang ki tai khoan"
     edit:
       title1: "Chinh sua thong tin"
       title2: "Cap nhat thong tin"
       save_change: "Luu thay doi"
+
     index:
       all_user: "Toan bo nguoi dung"
   shared:
@@ -102,5 +109,7 @@ vi:
       update_success: "Cap nhat ho so thanh cong"
       login_danger: "Yeu cau dang nhap"
       delete_user: "Da xoa nguoi dung"
+      mail: "Kiem tra email de kich hoat tai khoan"
+      user_delete: "Xoa nguoi dung thanh cong"
     session_controller:
       danger: "To hop email/mat khau khong phu hop"
