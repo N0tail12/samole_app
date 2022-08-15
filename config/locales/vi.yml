@@ -80,6 +80,20 @@ vi:
       title1: "Chao mung den voi Sample App! Bam vao link ben duoi de kich hoat tai khoan: "
       greeting: "Xin chao "
       activation: "Kich hoat"
+    password_reset:
+      title1: "Dat lai mat khau"
+      title2: "Bam vao link ben duoi de reset mat khau"
+      reset_pass: "Dat lai mat khau"
+      title3: "Link nay se het han trong 2 gio"
+      title4: " Neu ban khong yeu cau doi mat khau, hay bo qua."
+  password_resets:
+    edit:
+      title1: "Dat lai mat khau"
+      confirm: "Xac nhan"
+      update: "Cap nhat mat khau"
+    new:
+      title1: "Quen Mat Khau"
+      submit: "Xac nhan"
   sessions:
     new:
       new_user: "Nguoi dung moi?"
@@ -96,7 +110,6 @@ vi:
       title1: "Chinh sua thong tin"
       title2: "Cap nhat thong tin"
       save_change: "Luu thay doi"
-
     index:
       all_user: "Toan bo nguoi dung"
   shared:

@@ -13,6 +13,7 @@ validates:
   min_email: 20
   max_email: 255
   min_password: 6
+  password_reset_expired_hours: 2
 regex:
   VALID_EMAIL_REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 

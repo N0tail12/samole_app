@@ -19,7 +19,7 @@ class SessionsController < ApplicationController
 
   private
   def handle_login user
-    if user.actived
+    if user.activated
       log_in user
       params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
       redirect_back_or user
