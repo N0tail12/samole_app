@@ -46,6 +46,7 @@ en:
       profile: "Profile"
       settings: "Settings"
       logout: "Log out"
+      account: "Account"
   static_pages:
     contact:
       title1: "Contact"
@@ -86,6 +87,12 @@ en:
       password_confirm: "Password Confirm"
       submit: "Create my account"
       sign_up: "Sign Up"
+    edit:
+      title1: "Edit profile"
+      title2: "Update your profile"
+      save_change: "Save change"
+    index:
+      all_user: "All users"
   shared:
     form_contain: "The form contains"
   controllers:
@@ -93,5 +100,8 @@ en:
       success: "Welcome to the Sample app!"
       error: "Failed to create new account"
       not_found: "Not found"
+      update_success: "Profile updated"
+      login_danger: "please login"
+      delete_user: "User deleted"
     session_controller:
       danger: "Invalid email/password combination"
