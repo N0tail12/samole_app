@@ -69,3 +69,18 @@ en:
       series: "screencast series"
       intro2: "to teach web development with"
       intro3: "This is the sample app for the tutorial."
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Password Confirm"
+      submit: "Create my account"
+      sign_up: "Sign Up"
+  shared:
+    form_contain: "The form contains"
+  controllers:
+    users_controller:
+      success: "Welcome to the Sample app!"
+      error: "Failed to create new account"
+      not_found: "Not found"
