@@ -94,6 +94,8 @@ vi:
     new:
       title1: "Quen Mat Khau"
       submit: "Xac nhan"
+      micropost_form:
+      large_img_error: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
   sessions:
     new:
       new_user: "Nguoi dung moi?"
@@ -126,3 +128,10 @@ vi:
       user_delete: "Xoa nguoi dung thanh cong"
     session_controller:
       danger: "To hop email/mat khau khong phu hop"
+    micropost_controller:
+      destroyed: "Da xoa Micropost"
+      created: "Da tao Micropost!"
+  models:
+    micropost:
+      validate_type: "Phai phu hop voi kieu"
+      size_message: "Kich thuoc phai nho hon 5MB"

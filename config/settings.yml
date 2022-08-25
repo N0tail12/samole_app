@@ -14,8 +14,13 @@ validates:
   max_email: 255
   min_password: 6
   password_reset_expired_hours: 2
+  max_content: 140
+  min_store: 5
 regex:
   VALID_EMAIL_REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 
 paginate:
   limit: 10
+micropost:
+  resize_to_limit: [500, 500]
+  image_type: ["image/jpeg", "image/gif", "image/png"]

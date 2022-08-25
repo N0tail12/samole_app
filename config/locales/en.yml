@@ -95,6 +95,9 @@ en:
     new:
       title1: "Forgot password"
       submit: "Submit"
+  shared:
+    micropost_form:
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
   sessions:
     new:
       new_user: "New user?"
@@ -131,3 +134,10 @@ en:
       cant_empty: "can't be empty"
       pass_reset: "Password has been reset"
       pass_expired: "Password reset has expired"
+    micropost_controller:
+      destroyed: "Micropost destroyed!"
+      created: "Micropost created!"
+  models:
+    micropost:
+      validate_type: "must be a valid image format"
+      size_message: "should be less than 5mb"
