@@ -5,9 +5,13 @@ ruby "2.7.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "bootstrap-sass", "3.4.1"
+gem "bootstrap-will_paginate", "1.0.0"
 gem "config"
+gem "faker", "2.1.2"
+gem "pagy"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 gem "rails-i18n"
+gem "will_paginate", "3.1.8"
 
 gem "pry-rails"
 gem "webpacker"

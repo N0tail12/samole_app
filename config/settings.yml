@@ -15,3 +15,6 @@ validates:
   min_password: 6
 regex:
   VALID_EMAIL_REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+
+paginate:
+  limit: 10
