@@ -74,6 +74,10 @@ vi:
       series: "Series Screencast"
       intro2: "De huong dan nha phat trien web voi"
       intro3: "Day la sample app cho huong dan"
+  sessions:
+    new:
+      new_user: "Nguoi dung moi?"
+      remember: "Nho toi tren thiet bi nay"
   users:
     new:
       name: "Ten"
