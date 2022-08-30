@@ -41,6 +41,11 @@ vi:
     header:
       sample_app: "sample app"
       login: "Dang Nhap"
+      users: "Nguoi dung"
+      account: "Tai khoan"
+      profile: "Ho so"
+      settings: "Cai dat"
+      logout: "Dang xuat"
   static_pages:
     contact:
       title1: "Lien He"
