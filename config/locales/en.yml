@@ -75,6 +75,11 @@ en:
       series: "screencast series"
       intro2: "to teach web development with"
       intro3: "This is the sample app for the tutorial."
+  user_mailer:
+    account_activation:
+      title1: "Welcome to the Sample App! Click on the link below to activate your account:"
+      greeting: "Hi "
+      activation: "Activation"
   sessions:
     new:
       new_user: "New user?"
@@ -103,5 +108,7 @@ en:
       update_success: "Profile updated"
       login_danger: "please login"
       delete_user: "User deleted"
+      mail: "Please check your email to activate your account."
+      user_delete: "User deleted"
     session_controller:
       danger: "Invalid email/password combination"

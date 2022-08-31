@@ -19,8 +19,13 @@ class SessionsController < ApplicationController
 
   private
   def handle_login user
-    log_in user
-    params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
-    redirect_to user
+    if user.actived
+      log_in user
+      params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      flash[:danger] = t ".not_actived"
+      redirect_to root_path
+    end
   end
 end
