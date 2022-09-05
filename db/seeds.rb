@@ -5,10 +5,10 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-User.create!(name: "Example",
-            email: "example@railstutorial.org",
-            password: "foobar",
-            password_confirmation: "foobar",
+User.create!(name: "mhieu345",
+            email: "lolicon1311@gmail.com",
+            password: "131120",
+            password_confirmation: "131120",
             admin: true,
             activated: true,
             activated_at: Time.zone.now)
@@ -23,4 +23,9 @@ User.create!(name: "Example",
               password_confirmation: password,
               activated: true,
               activated_at: Time.zone.now)
+end
+users = User.order(:created_at).take(6)
+50.times do
+  content = Faker::Lorem.sentence(word_count: 5)
+  users.each { |user| user.micropost.create!(content: content) }
 end
